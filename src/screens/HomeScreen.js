@@ -7,18 +7,18 @@ const HomeScreen = (props) => {
   
   return (
     <View>
-      <Text style={styles.text}>2232332</Text>
       <Button
         title="Go to componentes Demo"
         onPress={() => {
           props.navigation.navigate('List')
         }}
       />
-      <TouchableOpacity  onPress={() => {
-          console.log("Fue ejecutado");
-        }}>
-        <Text>go to list demo</Text>
-      </TouchableOpacity>
+       <Button
+        title="Go to componentes ImageCreen"
+        onPress={() => {
+          props.navigation.navigate('ImageCreen')
+        }}
+      />
     </View>
   );
 };
