@@ -3,7 +3,6 @@ import { Text, StyleSheet, View, Button } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 const HomeScreen = (props) => {
-
   return (
     <View>
       <Button
@@ -24,7 +23,7 @@ const HomeScreen = (props) => {
           props.navigation.navigate("CounterScreen");
         }}
       />
-       <Button
+      <Button
         title="Go to componentes SquareScreen"
         onPress={() => {
           props.navigation.navigate("SquareScreen");
@@ -34,6 +33,12 @@ const HomeScreen = (props) => {
         title="Go to componentes Color"
         onPress={() => {
           props.navigation.navigate("ColorScreen");
+        }}
+      />
+      <Button
+        title="Go to componentes TextScreen"
+        onPress={() => {
+          props.navigation.navigate("TextScreen");
         }}
       />
     </View>
