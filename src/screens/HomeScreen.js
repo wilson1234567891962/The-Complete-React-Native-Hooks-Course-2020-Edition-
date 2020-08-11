@@ -41,6 +41,12 @@ const HomeScreen = (props) => {
           props.navigation.navigate("TextScreen");
         }}
       />
+      <Button
+        title="Go to componentes BoxScreen"
+        onPress={() => {
+          props.navigation.navigate("BoxScreen");
+        }}
+      />
     </View>
   );
 };
