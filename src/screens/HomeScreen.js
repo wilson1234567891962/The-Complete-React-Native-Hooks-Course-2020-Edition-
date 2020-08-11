@@ -25,6 +25,12 @@ const HomeScreen = (props) => {
           props.navigation.navigate("CounterScreen");
         }}
       />
+       <Button
+        title="Go to componentes SquareScreen"
+        onPress={() => {
+          props.navigation.navigate("SquareScreen");
+        }}
+      />
       <Button
         title="Go to componentes Color"
         onPress={() => {
