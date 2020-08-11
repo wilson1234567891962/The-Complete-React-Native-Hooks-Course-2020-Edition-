@@ -3,7 +3,6 @@ import { Text, StyleSheet, View, Button } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 const HomeScreen = (props) => {
-  console.log(props);
 
   return (
     <View>
