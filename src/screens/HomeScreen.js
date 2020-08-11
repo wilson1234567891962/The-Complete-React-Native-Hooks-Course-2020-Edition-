@@ -4,19 +4,25 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 
 const HomeScreen = (props) => {
   console.log(props);
-  
+
   return (
     <View>
       <Button
         title="Go to componentes Demo"
         onPress={() => {
-          props.navigation.navigate('List')
+          props.navigation.navigate("List");
         }}
       />
-       <Button
+      <Button
         title="Go to componentes ImageCreen"
         onPress={() => {
-          props.navigation.navigate('ImageCreen')
+          props.navigation.navigate("ImageCreen");
+        }}
+      />
+      <Button
+        title="Go to componentes Counter"
+        onPress={() => {
+          props.navigation.navigate("CounterScreen");
         }}
       />
     </View>
