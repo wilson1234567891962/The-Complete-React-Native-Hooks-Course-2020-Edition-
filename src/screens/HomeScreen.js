@@ -25,6 +25,12 @@ const HomeScreen = (props) => {
           props.navigation.navigate("CounterScreen");
         }}
       />
+      <Button
+        title="Go to componentes Color"
+        onPress={() => {
+          props.navigation.navigate("ColorScreen");
+        }}
+      />
     </View>
   );
 };
